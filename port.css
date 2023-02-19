@@ -3,8 +3,89 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+body{
+    background-color: #FFFAE7;
+}
 header{
     display: flex;
     justify-content: space-between;
+    /* border: 1px solid black; */
+    height: 70px;
+    padding: 0 50px;
+    margin-bottom: 80px;
+    align-items: center;
+    background-color: white;
 }
+h3{
+    color: #E14D2A;
+    font-weight: 700;
+}
+nav{
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+}
+a{
+text-decoration: none;
+/* padding-right: 15px; */
+color: black;
+}
+
+main{
+    display: flex;
+    /* background-color:#FFFAE7; */
+}
+h6{
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+.name{
+    font-weight: 100;   
+    color:#FF8787;
+}
+.img-box{
+    
+    /* border: 1px solid red; */
+    width: 50vw;
+    /* border-radius: 50%; */
+    padding-left: 300px;
+}
+
+img{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+}
+
+h2{
+margin-bottom: 20px;
+color: #FF5858;
+}
+
+.tags{
+    display: inline-block;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 0;
+    border: 1px solid  #E14D2A;
+   
+
+text-align: center;
+}
+.hire{
+    color: white;
+    background-color: #E14D2A;
+}
+.port{
+color:  #E14D2A;
+}
+
+.link{
+    margin-top: 50px;
+}
+.txt-left{
+    margin-left: 50px;
+}
+
+
