@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-/*     background-color: #FFFAE7; */
-    background-color: black;
+    background-color: #FFFAE7;
+    /* background-color: black; */
 }
 header{
     display: flex;
@@ -34,6 +34,7 @@ color: black;
 
 main{
     display: flex;
+    justify-content: space-between;
     /* background-color:#FFFAE7; */
 }
 h6{
@@ -45,11 +46,11 @@ h6{
     color:#FF8787;
 }
 .img-box{
-    
+    padding-right: 200px;
     /* border: 1px solid red; */
-    width: 50vw;
+    /* width: 50vw; */
     /* border-radius: 50%; */
-    padding-left: 300px;
+    /* padding-left: 300px; */
 }
 
 img{
@@ -84,6 +85,9 @@ color:  #E14D2A;
 
 .link{
     margin-top: 50px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
 }
 .txt-left{
     margin-left: 50px;
